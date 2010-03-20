@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<title>Micro Theme</title>
+
+	<style type="text/css">
+	
+		/*********************************
+		 * Some basic rules for the demo
+		 *********************************/
+		 
+		html { font-size: 1em; }
+		html, body { padding: 0; margin: 0; }
+		
+		body {
+			font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", 
+				"Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", 
+				Verdana, "Verdana Ref", sans-serif;
+			font-size: 14px;
+			line-height: 1.5em;
+			color: #222;
+			text-align: center;
+		}
+		
+		p { margin: 0; padding: 1em 0; }
+		#container_1, #container_2, #container_3 { margin: 2em 0; }
+		#top { background: #eee; }
+		#middle { background: #ddd; }
+		#bottom { background: #ccc; }
+		.wrapper { padding: 4em 0; }
+		.clearall { clear: both; display: block; width: 100%; }
+	
+		/*********************************
+		 * Rules to change layout style
+		 *********************************/
+		 
+		/* Nothing needed (Full width) */
+		#container_1 {}
+		
+		/* Wrap the entire site at once (Page Width) */
+		#container_2 { width: 960px; margin: 0 auto; border: 1px solid #aaa;}
+		
+		/* Wrap all content areas (Full Width - with - Page Width) */
+		#container_3 .wrapper { width: 960px; margin: 0 auto; border: 1px solid #aaa;}
+
+	</style>
+</head>
+<body>
+
+<h1>Full Width</h1>
+
+<div id="container_1">
+
+	<div id="top">
+		<div class="wrapper">
+			<p>Header</p>
+		</div>
+	</div>
+	
+	<div id="middle">
+		<div class="wrapper">
+			<p>Main</p>
+		</div>
+	</div>
+	
+	<div id="bottom">
+		<div class="wrapper">
+			<p>Footer</p>
+		</div>
+	</div>
+	
+	<div class="clearall"></div>
+</div>
+
+<h1>Page Width</h1>
+
+<div id="container_2">
+
+	<div id="top">
+		<div class="wrapper">
+			<p>Header</p>
+		</div>
+	</div>
+	
+	<div id="middle">
+		<div class="wrapper">
+			<p>Main</p>
+		</div>
+	</div>
+	
+	<div id="bottom">
+		<div class="wrapper">
+			<p>Footer</p>
+		</div>
+	</div>
+	
+	<div class="clearall"></div>
+</div>
+
+
+<h1>Full Width (Design/Background) - Page Width (Content)</h1>
+
+<div id="container_3">
+
+	<div id="top">
+		<div class="wrapper">
+			<p>Header</p>
+		</div>
+	</div>
+	
+	<div id="middle">
+		<div class="wrapper">
+			<p>Main</p>
+		</div>
+	</div>
+	
+	<div id="bottom">
+		<div class="wrapper">
+			<p>Footer</p>
+		</div>
+	</div>
+	
+	<div class="clearall"></div>
+</div>
+
+
+<div style="margin: 2em auto; width: 500px; text-align: left;">
+	
+	<h1>Why?</h1>
+	
+	<p>Most of the business world uses standard A4 (letter size) paper. 
+	It always comes 8.5"x11" (210mm x 279.4mm) since it is an established standard.</p>
+	
+	<p>It would be silly for A4 paper to come in random sizes larger than 8.5"x11"
+	each time you ordered it. Some days it might be 8.5"x11" and other days it might
+	be 9"x12". Since it must be 8.5x11 to work with scanners and other equipment, 
+	you would have to crop sizes larger back down to 8.5"x11" and then you could use it.</p>
+	
+	<p>This would be ridiculous. However, aren't our websites the same way?</p>
+
+	<p>It seems 98% of all web themes use three basic sections to order content. 
+	Each has a header (top), content area (middle), and footer (bottom).
+	The look and sub elements of these three sections varies drastically - 
+	but the fact that they are there wrapping those elements doesn't.</p>
+	
+	<p>In an attempt to standardize this format (if for no-one else by myself)
+	I have created this file. At the core of all my themes
+	are these three basic sections. By adopting this file as the 
+	base for all my themes I will be able to standardize my HTML so that I can
+	concentrate more on CSS styling.</p>
+	
+	<p>Think of it like a less restrictive <a href="http://csszengarden.com">csszengarden.com</a></p>
+	
+	<p>I dare you to find a theme that this file isn't built for. Every site out there is
+	page based, full-width, or the background is full-width while the content is page-based.</p>
+	
+	<p style="color: #aaa;">P.S. Sub elements like "sidebars" are not included because 
+	they vary tremendously in number and position from theme to theme.</p>
+	
+</div>
+
+
+</body>
+</html>
